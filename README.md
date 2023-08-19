@@ -1,20 +1,20 @@
 
-# MTA_SDK
+# MTA-SDK
 
-The **mta_sdk** is a Rust library designed to provide ease of calling functions in the MTA
+The **mta-sdk** is a Rust library designed to provide ease of calling functions in the MTA
 
 
 ## Installation
 
 ```toml
 [dependencies]
-mta_sdk = "0.1"
+mta-sdk = "0.1"
 ```
 
 **or** 
 
 ```cargo
-cargo add mta_sdk
+cargo add mta-sdk
 ```
     
 ## Usage
