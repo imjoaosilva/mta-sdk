@@ -1,6 +1,25 @@
-use mta_sdk::client;
-use tokio;
 
+# MTA_SDK
+
+The **mta_sdk** is a Rust library designed to provide ease of calling functions in the MTA
+
+
+## Installation
+
+```toml
+[dependencies]
+mta_sdk = "0.1"
+```
+
+**or** 
+
+```cargo
+cargo add mta_sdk
+```
+    
+## Usage
+
+```rust
 #[tokio::main]
 async fn main() {
     
@@ -19,3 +38,9 @@ async fn main() {
         Err(err) => println!("{}", err)
     }
 }
+```
+
+## Documentation
+
+[Documentation](https://crates.io/crates/mtasa_sdk)
+
