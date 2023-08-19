@@ -8,7 +8,7 @@ The **mta-sdk** is a Rust library designed to provide ease of calling functions 
 
 ```toml
 [dependencies]
-mta-sdk = "0.1.1"
+mta-sdk = "0.1.2"
 ```
 
 **or** 
@@ -42,5 +42,5 @@ async fn main() {
 
 ## Documentation
 
-[Documentation](https://crates.io/crates/mtasa_sdk)
+[Documentation](https://docs.rs/mta-sdk/latest/mta_sdk/)
 
